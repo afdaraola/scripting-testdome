@@ -6,6 +6,6 @@ TABLE students
    lastName VARCHAR(30) NOT NULL
  */
    
-select count(*)
+select count(*) as noOfStudents
 from students
 where firstName = 'John'
