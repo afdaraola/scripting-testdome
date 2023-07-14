@@ -10,3 +10,11 @@ TABLE students
 select count(*) as noOfStudents
 from students
 where firstName = 'John'
+
+
+SELECT column_id,
+       column_name,
+       hidden_column
+FROM   user_tab_cols
+WHERE  table_name = 'T'
+ORDER BY column_id;
